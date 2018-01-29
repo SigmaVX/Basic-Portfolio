@@ -21,6 +21,7 @@ p, form {
 
 p:hover {
     color: #6299fe;
+    font-weight: 650;
 }
 
 form {
@@ -110,12 +111,6 @@ footer p {
     padding: 25px;
 }
 
-.bigbox img{
-    float: left;
-    padding-right: 35px;
-    padding-bottom: 10px;
-}
-
 .linkbox {
     width: 270px;
     display: inline-block;
@@ -140,57 +135,45 @@ footer p {
     border: none;
 }
 
+.button:hover {
+    background-color: gold;
+    color: black;
+}
+
 .port-img {
     position: relative;
     top: 0;
     left: 0;
     margin-left: 25px;
     margin-bottom: 15px;
+    float: left;
 }
 
 .portfolio p {
     width: 250px;
-    height: 26px;
-    padding-top: 8px;   
+    padding-top: 8px;
+    padding-bottom: 5px;   
     font-size: 16px;
     text-align: center;
     background-color: #4aaaa5;
     color: white;
 }
 
-#image-wrap1 {
+.image-wrap {
     position: absolute;
     top: 125px;
     left: 0px;
     z-index: 1;
 }
 
-#image-wrap2 {
-    position: absolute;
-    top: 125px;
-    left: 285px;
-    z-index: 1;
-}
+#about-img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
 
-#image-wrap3 {
-    position: absolute;
-    top: 333px;
-    left: 0px;
-    z-index: 1;
 }
-
-#image-wrap4 {
-    position: absolute;
-    top: 333px;
-    left: 285px;
-    z-index: 1;
-}
-
-#image-wrap5 {
-    position: absolute;
-    top: 541px;
-    left: 0px;
-    z-index: 1;
+#about-img:hover {
+    transform: rotate(15deg);
 }
 
 #messagebox {
